@@ -1,0 +1,77 @@
+*:focus  
+{  
+    outline: none;  
+}
+body {
+  -webkit-app-region: drag;
+  background-color: black;
+}
+button {
+  -webkit-app-region: no-drag;
+  cursor: pointer
+}
+.timer {
+  text-align: center;
+  font: 36px sans-serif;
+  letter-spacing: 4px;
+  border: 4px outset black;
+  color: #cf0;
+}
+.timer small {
+  vertical-align: top;
+}
+.actions {
+  padding: 5px;
+}
+.actions button {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 2px;
+  color: #aaa;
+  padding: 0;
+  font-family: arial;
+}
+#btn_start {
+  width: 45px;
+  font-size: 16px;
+}
+#btn_start:hover {
+  color: #0c0;
+  border-color: #080;
+}
+#btn_reset {
+  width: 35px;
+  font-size: 10px;
+  letter-spacing: 0;
+}
+#btn_reset:hover {
+  color: #c00;
+  border-color: #800;
+}
+#btn_close {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: black;
+  border: none;
+  color: #999;
+}
+#btn_close:hover {
+  color: #ddd;
+}
+#second {
+  font-size: 18px;
+  margin-left: 3px;
+}
+
+.blinking {
+  color: yellow;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes blinker {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
