@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Stopwatch",
-  "description": "Tiny stopwatch with time storage.",
-  "version": "1.0",
+  "description": "A tiny stopwatch with time storage to keep the time.",
+  "version": "2.2",
   "author": "Mohsen Khahani",
   "app": {
     "background": {

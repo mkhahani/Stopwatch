@@ -1,0 +1,6 @@
+.idea
+node_modules
+.eslintrc.js
+dist/Stopwatch.pem
+v1.0/
+v2.0/
